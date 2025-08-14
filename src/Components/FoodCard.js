@@ -3,7 +3,6 @@
 export default function Foodcard({foodData})
 {
 
-
     return(
         <>
         <a href={foodData?.action?.link}>
