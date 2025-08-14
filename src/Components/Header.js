@@ -3,7 +3,6 @@
 
 export default function Header(){
 
-
     return (
         <header className="bg-[#ff5200] font-serif">
             <div className="flex justify-between container mx-auto py-8">
