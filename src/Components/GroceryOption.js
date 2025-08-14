@@ -12,5 +12,6 @@ export default function GroceryOption(){
                     }
                   </div>
         </div>
+        
     )
 }
