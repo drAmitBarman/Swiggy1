@@ -18612,7 +18612,7 @@ function Header() {
                         src: "https://res.cloudinary.com/dutdah0l9/image/upload/v1720058694/Swiggy_logo_bml6he.png"
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18624,7 +18624,7 @@ function Header() {
                                 children: "Swiggy Corporate"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 12,
+                                lineNumber: 11,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -18633,7 +18633,7 @@ function Header() {
                                 children: "Partner with Us"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 13,
+                                lineNumber: 12,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -18643,7 +18643,7 @@ function Header() {
                                 children: "Get The App"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 14,
+                                lineNumber: 13,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -18653,19 +18653,19 @@ function Header() {
                                 children: "Sign in"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 15,
+                                lineNumber: 14,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18676,7 +18676,7 @@ function Header() {
                         src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Veggies_new.png"
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 20,
+                        lineNumber: 19,
                         columnNumber: 18
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -18684,7 +18684,7 @@ function Header() {
                         src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png"
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 21,
+                        lineNumber: 20,
                         columnNumber: 18
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18692,7 +18692,7 @@ function Header() {
                         children: "Order Food and groceries. Discover best restaurants. Swiggy it!"
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 22,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18703,7 +18703,7 @@ function Header() {
                                 placeholder: "Delhi, India"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 26,
+                                lineNumber: 25,
                                 columnNumber: 18
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -18711,19 +18711,19 @@ function Header() {
                                 placeholder: "Search for restaurant and items for more"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 27,
+                                lineNumber: 26,
                                 columnNumber: 18
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 25,
+                        lineNumber: 24,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.js",
-                lineNumber: 19,
+                lineNumber: 18,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18735,12 +18735,12 @@ function Header() {
                             src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/1/fa01e85b-3057-482d-9523-5289722b1df2_Food4BU.png"
                         }, void 0, false, {
                             fileName: "src/Components/Header.js",
-                            lineNumber: 33,
+                            lineNumber: 32,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 32,
+                        lineNumber: 31,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -18749,12 +18749,12 @@ function Header() {
                             src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/16/ca34e375-f1bd-4a2e-a3e7-0a20833be83b_IM4BU1.png"
                         }, void 0, false, {
                             fileName: "src/Components/Header.js",
-                            lineNumber: 36,
+                            lineNumber: 35,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 35,
+                        lineNumber: 34,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -18763,12 +18763,12 @@ function Header() {
                             src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/1/76c30e5a-8adb-4795-bf5b-fa64e9e9e1d3_DO4BU.png"
                         }, void 0, false, {
                             fileName: "src/Components/Header.js",
-                            lineNumber: 39,
+                            lineNumber: 38,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 38,
+                        lineNumber: 37,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -18777,24 +18777,24 @@ function Header() {
                             src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/31/14033c0b-8907-420b-b72a-d26cfa68dc7b_Genie4BU.png"
                         }, void 0, false, {
                             fileName: "src/Components/Header.js",
-                            lineNumber: 42,
+                            lineNumber: 41,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 41,
+                        lineNumber: 40,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.js",
-                lineNumber: 31,
+                lineNumber: 30,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/Components/Header.js",
-        lineNumber: 8,
+        lineNumber: 7,
         columnNumber: 9
     }, this);
 }
@@ -19004,12 +19004,12 @@ function FoodOption() {
                     foodData: foodData
                 }, foodData.id, false, {
                     fileName: "src/Components/FoodOption.js",
-                    lineNumber: 10,
+                    lineNumber: 11,
                     columnNumber: 48
                 }, this))
         }, void 0, false, {
             fileName: "src/Components/FoodOption.js",
-            lineNumber: 8,
+            lineNumber: 9,
             columnNumber: 11
         }, this)
     }, void 0, false);
@@ -19390,12 +19390,12 @@ function Foodcard({ foodData }) {
                 src: "https://media-assets.swiggy.com/swiggy/image/upload/" + foodData?.imageId
             }, void 0, false, {
                 fileName: "src/Components/FoodCard.js",
-                lineNumber: 10,
+                lineNumber: 8,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "src/Components/FoodCard.js",
-            lineNumber: 9,
+            lineNumber: 7,
             columnNumber: 9
         }, this)
     }, void 0, false);
@@ -19421,37 +19421,38 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>GroceryOption);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _grocery = require("../Utils/Grocery");
-var _groceryCard = require("./GroceryCard");
-var _groceryCardDefault = parcelHelpers.interopDefault(_groceryCard);
+var _grocerycard = require("./Grocerycard");
+var _grocerycardDefault = parcelHelpers.interopDefault(_grocerycard);
 function GroceryOption() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "mt-20 w-[80%] container mx-auto",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "text-2xl font-bold",
                 children: "Shop Groceries on Instamart"
             }, void 0, false, {
                 fileName: "src/Components/GroceryOption.js",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "w-[80%] container mx-auto flex flex-wrap mt-20 gap-3",
-                children: (0, _grocery.GrocerGridCard).map((foodData)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _groceryCardDefault.default), {
+                className: "mt-5 container mx-auto flex flex-nowrap overflow-x-auto  gap-3",
+                children: (0, _grocery.GrocerGridCard).map((foodData)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _grocerycardDefault.default), {
                         foodData: foodData
                     }, foodData.id, false, {
                         fileName: "src/Components/GroceryOption.js",
-                        lineNumber: 12,
+                        lineNumber: 11,
                         columnNumber: 56
                     }, this))
             }, void 0, false, {
                 fileName: "src/Components/GroceryOption.js",
-                lineNumber: 10,
+                lineNumber: 9,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/Components/GroceryOption.js",
-        lineNumber: 8,
+        lineNumber: 7,
         columnNumber: 10
     }, this);
 }
@@ -19464,7 +19465,7 @@ $RefreshReg$(_c, "GroceryOption");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Utils/Grocery":"i6WyH","./GroceryCard":"hyOSt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"i6WyH":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../Utils/Grocery":"i6WyH","./Grocerycard":"aCKkK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"i6WyH":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GrocerGridCard", ()=>GrocerGridCard);
@@ -19807,11 +19808,11 @@ const GrocerGridCard = [
     }
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hyOSt":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$39c0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aCKkK":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$0b68 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$39c0.prelude(module);
+$parcel$ReactRefreshHelpers$0b68.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -19819,19 +19820,36 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Grocerycard);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function Grocerycard({ foodData }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-        href: foodData?.action?.link,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-            className: "w-40 h-50 object-cover",
-            src: "https://media-assets.swiggy.com/swiggy/image/upload/" + foodData?.imageId
-        }, void 0, false, {
-            fileName: "src/Components/GroceryCard.js",
-            lineNumber: 9,
-            columnNumber: 9
-        }, this)
-    }, void 0, false, {
-        fileName: "src/Components/GroceryCard.js",
-        lineNumber: 8,
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "flex-none",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: foodData?.action?.link,
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "w-40 h-50 object-cover",
+                    src: "https://media-assets.swiggy.com/swiggy/image/upload/" + foodData?.imageId
+                }, void 0, false, {
+                    fileName: "src/Components/Grocerycard.js",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/Components/Grocerycard.js",
+                lineNumber: 8,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "text-center font-bold",
+                children: foodData?.action?.text
+            }, void 0, false, {
+                fileName: "src/Components/Grocerycard.js",
+                lineNumber: 11,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Grocerycard.js",
+        lineNumber: 7,
         columnNumber: 9
     }, this);
 }
@@ -19839,7 +19857,7 @@ _c = Grocerycard;
 var _c;
 $RefreshReg$(_c, "Grocerycard");
 
-  $parcel$ReactRefreshHelpers$39c0.postlude(module);
+  $parcel$ReactRefreshHelpers$0b68.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
