@@ -25,9 +25,7 @@ export default function Restaurent (){
         "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&is-seo-homepage-enabled=true";
 
       // Fetch via AllOrigins
-      const response = await fetch(
-        `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
-      );
+      const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
       const data = await response.json();
 
       // Parse the actual JSON inside `contents`
