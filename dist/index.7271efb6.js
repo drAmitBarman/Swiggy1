@@ -2959,28 +2959,35 @@ var _groceryOption = require("./Components/GroceryOption");
 var _groceryOptionDefault = parcelHelpers.interopDefault(_groceryOption);
 var _dineOption = require("./Components/DineOption");
 var _dineOptionDefault = parcelHelpers.interopDefault(_dineOption);
+var _restaurant = require("./Components/Restaurant");
+var _restaurantDefault = parcelHelpers.interopDefault(_restaurant);
 // Header section: Let's build it
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _foodOptionDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _groceryOptionDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _dineOptionDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 19,
+                lineNumber: 20,
+                columnNumber: 8
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 21,
                 columnNumber: 8
             }, this)
         ]
@@ -2989,7 +2996,7 @@ function App() {
 _c = App;
 (0, _clientDefault.default).createRoot(document.getElementById('root')).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 24,
+    lineNumber: 26,
     columnNumber: 61
 }, undefined));
 var _c;
@@ -3000,7 +3007,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./Components/Header":"fNIx6","./Components/FoodOption":"aPPgV","./Components/GroceryOption":"kjZzE","./Components/DineOption":"dWGwF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./Components/Header":"fNIx6","./Components/FoodOption":"aPPgV","./Components/GroceryOption":"kjZzE","./Components/DineOption":"dWGwF","./Components/Restaurant":"k1zXK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -22631,6 +22638,60 @@ $RefreshReg$(_c, "DineCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"k1zXK":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$a2bf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$a2bf.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Restaurent);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+function Restaurent() {
+    _s();
+    //  useEffect(()=>{
+    //   async function fetchData() {
+    //         const proxyServer = "https://cors-anywhere.herokuapp.com/"
+    //         const swiggyAPI="https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.6015375&lng=88.38329689999999&is-seo-homepage-enabled=true"
+    //     const respons= await 
+    //     const data =await respons.json();
+    //     setRestData(data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+    //   }  
+    //   fetchData   
+    //  },[])
+    const [restData, setRestData] = (0, _react.useState)([]);
+    (0, _react.useEffect)(()=>{
+        async function fetchData() {
+            const url = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&is-seo-homepage-enabled=true";
+            // Fetch via AllOrigins
+            const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
+            const data = await response.json();
+            // Parse the actual JSON inside `contents`
+            const swiggyData = JSON.parse(data.contents);
+            // Extract restaurants
+            const restaurants = swiggyData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+            setRestData(restaurants || []);
+        }
+        fetchData();
+    }, []);
+    // ✅ just log restData directly
+    console.log(restData);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {}, void 0, false);
+}
+_s(Restaurent, "500X6+WRZ9TacrkR+hAv2teFCZE=");
+_c = Restaurent;
+var _c;
+$RefreshReg$(_c, "Restaurent");
+
+  $parcel$ReactRefreshHelpers$a2bf.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map
