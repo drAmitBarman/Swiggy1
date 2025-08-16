@@ -22566,44 +22566,60 @@ parcelHelpers.export(exports, "default", ()=>DineCard);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function DineCard({ RestData }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "max-w-sm flex-none ",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "relative",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "w-80 h-50 object-cover",
-                    src: "https://media-assets.swiggy.com/swiggy/image/upload/" + RestData?.info?.mediaFiles[0]?.url
-                }, void 0, false, {
-                    fileName: "src/Components/DineCard.js",
-                    lineNumber: 7,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "absolute bottom-2 left-4 text-xl text-white font-bold",
-                    children: RestData?.info?.name
-                }, void 0, false, {
-                    fileName: "src/Components/DineCard.js",
-                    lineNumber: 8,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "absolute bottom-2 right-4 text-xl text-white font-bold",
-                    children: RestData?.info?.rating?.value
-                }, void 0, false, {
-                    fileName: "src/Components/DineCard.js",
-                    lineNumber: 9,
-                    columnNumber: 13
-                }, this)
-            ]
-        }, void 0, true, {
+        className: "max-w-sm flex-none",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+            target: "_blank",
+            href: RestData.cta.link,
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "w-80 h-50 object-cover",
+                        src: "https://media-assets.swiggy.com/swiggy/image/upload/" + RestData?.info?.mediaFiles[0]?.url,
+                        alt: "Restaurant"
+                    }, void 0, false, {
+                        fileName: "src/Components/DineCard.js",
+                        lineNumber: 8,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black to-transparent"
+                    }, void 0, false, {
+                        fileName: "src/Components/DineCard.js",
+                        lineNumber: 17,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "absolute bottom-2 left-2 text-xl text-white z-10",
+                        children: RestData.info.name
+                    }, void 0, false, {
+                        fileName: "src/Components/DineCard.js",
+                        lineNumber: 19,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "absolute bottom-2 right-2 text-xl text-white z-10",
+                        children: RestData?.info?.rating?.value
+                    }, void 0, false, {
+                        fileName: "src/Components/DineCard.js",
+                        lineNumber: 22,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/DineCard.js",
+                lineNumber: 7,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "src/Components/DineCard.js",
             lineNumber: 6,
-            columnNumber: 12
+            columnNumber: 8
         }, this)
     }, void 0, false, {
         fileName: "src/Components/DineCard.js",
         lineNumber: 5,
-        columnNumber: 9
+        columnNumber: 7
     }, this);
 }
 _c = DineCard;
