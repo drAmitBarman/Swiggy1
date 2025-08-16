@@ -34,8 +34,7 @@ export default function Restaurent (){
       const swiggyData = JSON.parse(data.contents);
 
       // Extract restaurants
-      const restaurants =
-        swiggyData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+      const restaurants = swiggyData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants;
 
       setRestData(restaurants || []);
