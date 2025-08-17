@@ -22650,6 +22650,8 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Restaurent);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
+var _restCard = require("./RestCard");
+var _restCardDefault = parcelHelpers.interopDefault(_restCard);
 var _s = $RefreshSig$();
 function Restaurent() {
     _s();
@@ -22680,7 +22682,15 @@ function Restaurent() {
     }, []);
     // ✅ just log restData directly
     console.log(restData);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {}, void 0, false);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: restData.map((restInfo)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restCardDefault.default), {
+                restInfo: restInfo
+            }, restInfo?.info?.id, false, {
+                fileName: "src/Components/Restaurant.js",
+                lineNumber: 50,
+                columnNumber: 36
+            }, this))
+    }, void 0, false);
 }
 _s(Restaurent, "500X6+WRZ9TacrkR+hAv2teFCZE=");
 _c = Restaurent;
@@ -22692,6 +22702,118 @@ $RefreshReg$(_c, "Restaurent");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./RestCard":"p5hBJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"p5hBJ":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$61b1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$61b1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>RestCard);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function RestCard({ restInfo }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
+        to: "/city/delhi/" + restInfo?.info?.id,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "max-w-[280px] mb-2 transform transition duration-200 hover:scale-95",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "w-70 h-45 object-cover rounded-xl",
+                    src: "https://media-assets.swiggy.com/swiggy/image/upload/" + restInfo?.info?.cloudinaryImageId
+                }, void 0, false, {
+                    fileName: "src/Components/RestCard.js",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "w-[95%] mx-auto mt-3",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "font-bold text-xl ",
+                            children: restInfo?.info?.name
+                        }, void 0, false, {
+                            fileName: "src/Components/RestCard.js",
+                            lineNumber: 11,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "flex items-center gap-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                    className: "w-6 h-6 fill-green-600",
+                                    viewBox: "0 0 20 20",
+                                    xmlns: "http://www.w3.org/2000/svg",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                        d: "M9.049 2.927c.3-.645 1.605-.645 1.905 0l1.525 3.78 4.173.605c.738.107 1.035 1.012.5 1.534l-3.016 2.942.712 4.15c.127.74-.651 1.299-1.305.95l-3.726-1.962-3.726 1.962c-.654.35-1.432-.21-1.305-.95l.712-4.15-3.016-2.942c-.535-.522-.238-1.427.5-1.534l4.173-.605L9.049 2.927z"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/RestCard.js",
+                                        lineNumber: 18,
+                                        columnNumber: 8
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/Components/RestCard.js",
+                                    lineNumber: 13,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-lg",
+                                    children: restInfo?.info?.avgRating
+                                }, void 0, false, {
+                                    fileName: "src/Components/RestCard.js",
+                                    lineNumber: 20,
+                                    columnNumber: 9
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-lg font-semibold",
+                                    children: restInfo?.info?.sla?.slaString
+                                }, void 0, false, {
+                                    fileName: "src/Components/RestCard.js",
+                                    lineNumber: 21,
+                                    columnNumber: 9
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/RestCard.js",
+                            lineNumber: 12,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-gray-600 text-xl mt-1 h-7 overflow-hidden",
+                            children: restInfo?.info?.cuisines.join(" ")
+                        }, void 0, false, {
+                            fileName: "src/Components/RestCard.js",
+                            lineNumber: 24,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/RestCard.js",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/RestCard.js",
+            lineNumber: 8,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "src/Components/RestCard.js",
+        lineNumber: 7,
+        columnNumber: 10
+    }, this);
+}
+_c = RestCard;
+var _c;
+$RefreshReg$(_c, "RestCard");
+
+  $parcel$ReactRefreshHelpers$61b1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map

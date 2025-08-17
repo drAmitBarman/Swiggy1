@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import RestCard from "./RestCard";
+import Shimmer from "./Shimmer";
 
 
 export default function Restaurent (){
@@ -42,9 +44,17 @@ export default function Restaurent (){
   }, []);
 
   // ✅ just log restData directly
+if(restData.length==0){
+   return <Shimmer></Shimmer>
+}
+
   console.log(restData);
     return(
-        <>
-        </>
+        <div className="flex flex-wrap w-[80%] mx-auto mt-20 gap-5">
+       
+        {
+          restData.map((restInfo)=><RestCard key={restInfo?.info?.id} restInfo={restInfo} />)
+        }
+        </div>
     )
 }
