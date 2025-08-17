@@ -60,6 +60,7 @@
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --color-green-600: oklch(62.7% .194 149.214);
+    --color-gray-300: oklch(87.2% .01 258.338);
     --color-gray-600: oklch(44.6% .03 256.802);
     --color-black: #000;
     --color-white: #fff;
@@ -442,6 +443,10 @@
     margin-top: calc(var(--spacing) * 1);
   }
 
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
@@ -562,6 +567,14 @@
     width: 95%;
   }
 
+  .w-\[280px\] {
+    width: 280px;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
   .max-w-\[60\%\] {
     max-width: 60%;
   }
@@ -665,6 +678,10 @@
 
   .bg-black {
     background-color: var(--color-black);
+  }
+
+  .bg-gray-300 {
+    background-color: var(--color-gray-300);
   }
 
   .bg-white {

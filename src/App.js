@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
-import {BrowserrRouter,Route,Routes} from "react-router"
 import Home from "./Components/Home";
 import Restaurent from "./Components/Restaurant";
+import { BrowserRouter, Routes, Route } from "react-router";
+import RestaurantMenu from "./Components/RestaurantMenu";
 
 
 
@@ -12,13 +13,13 @@ import Restaurent from "./Components/Restaurant";
 function App(){
     
     return(
-       <BrowserrRouter>
+       <BrowserRouter>
        <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/restaurant" element={<Restaurent/>}></Route>
-        <Route ></Route>
+        <Route path="/city/delhi/:id" element={<RestaurantMenu/>}></Route>
        </Routes>
-       </BrowserrRouter>
+       </BrowserRouter>
     )
 }
 

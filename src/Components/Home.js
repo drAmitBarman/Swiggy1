@@ -1,4 +1,4 @@
-import Restaurant from "../../../../react/Day20/src/Components/Restaurant";
+import Restaurant from "./Restaurant";
 import DineOption from "./DineOption";
 import FoodOption from "./FoodOption";
 import GroceryOption from "./GroceryOption";
